@@ -1,0 +1,209 @@
+body {
+    background-color: rgb(191, 191, 191);
+    margin: auto;
+}
+
+p {
+    text-align: left;
+    text-indent: 50px;
+}
+
+div#interface {
+    background-color: white;
+    margin-top: -10px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+hgroup h1 {
+    margin: 10px auto auto 40px;
+}
+
+hgroup h2 {
+    margin-left: 80px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    top: 60px;
+    left: 800px;
+    padding: 10px;
+    position: absolute;
+}
+
+/*nav#menu li {
+    display: inline-block;
+    background-color: grey;
+    padding: 10px;
+    margin: 2px;
+    line-height: 15px;
+}*/
+
+nav#menu li {
+/*font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif!important;*/
+background-color: #5e5e5e!important;
+color: #fff!important;
+border: 0;
+font-style: normal!important;
+border-bottom: 1px solid #262626;
+border-right: 1px solid #262626;
+box-shadow: inset 1px 1px 0 #777,0 2px 3px rgba(0,0,0,.4)!important;
+display: inline-block;
+font-weight: 700;
+line-height: 1.4;
+text-transform: uppercase;
+text-decoration: none!important;
+border-radius: 4px!important;
+white-space: nowrap;
+padding: 0.5rem 1rem!important;
+text-align: center;
+transition: .07s;
+position: relative;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+aside#multimidia {
+    background-color: white;
+    display: block;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    height: 770px;
+}
+
+section#artigo-principal {
+    background-color: white;
+    display: block;
+    padding: 10px;
+    margin: 10px 520px 10px 10px;
+    height: 400px;
+}
+
+section#artigo-principal p {
+    margin: 10px;
+    padding: 0px;
+    position: relative;
+}
+
+section#artigo-secundario {
+    background-color: white;
+    display: block;
+    padding: 10px;
+    margin: 10px 520px 10px 10px;
+    height: 340px;
+}
+
+section#artigo-secundario p {
+    margin: 10px;
+    padding: 0px;
+    position: relative;
+}
+
+section#media {
+    background-color: white;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul#album {
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album li {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 7px solid grey;
+    border-radius: 4px;
+
+    /*background-color: #5e5e5e;*/
+    box-shadow: 1px 1px 3px rgba(0,0,0,04);
+    color: #fff;
+    border: 0;
+    border-bottom: 2px solid #262626;
+    border-right: 2px solid #262626;
+    box-shadow: inset 1px 1px 0 #777,0 2px 3px rgba(0,0,0,.4);
+    display: inline-block;
+}
+
+ul#album li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0,0,0,0.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#album li:hover span {
+    opacity: 1;
+}
+
+ul#album li#foto1 {
+    background: url('../imagens/foto01.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto2 {
+    background: url('../imagens/foto02.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto3 {
+    background: url('../imagens/foto03.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto4 {
+    background: url('../imagens/foto04.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid black;
+    background-color: white;
+    padding: 5px;
+}
+
+footer#rodape p {
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+footer#rodape a {
+    color: black;
+    text-decoration: none; 
+}
+
+footer#rodape a#is:hover {
+    color: rgb(247, 42, 62);
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+footer#rodape a#tw:hover {
+    color: rgb(82, 172, 255);
+    transition: 0.5s;
+    text-decoration: underline;
+}

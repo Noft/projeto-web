@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(191, 191, 191);
+    color: rgba(0, 0, 0);
+    margin: auto;
+}
+
+div#interface {
+    background: url("../imagens/paisagem.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    /*background-color: rgb(101, 218, 253);*/
+    display: block;
+    position: relative;
+}
+
+div#interface header h1 {
+    text-align: left;
+    margin-left: 120px;
+    top: 10px;
+    position: relative;
+}
+
+div#interface header h2 {
+    color: white;
+    text-align: left;
+    margin-left: 140px;
+    top: 10px;
+    position: relative;
+}
+
+/*==============Menu da página===============*/
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    top: 20px;
+    background: rgb(149,1,149);
+    background: linear-gradient(270deg, rgba(149,1,149,1) 0%, rgba(75,0,75,1) 75%, rgba(66,2,66,1) 100%);
+    padding: 10px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(75, 0, 75);
+    box-shadow: 1px 2px 3px rgba(60, 0 , 60, 0.5);
+    padding: 10px;
+    margin: 2px;
+    border-radius: 25px;
+    line-height: 15px;
+    left: 800px;
+    position: relative;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: yellow;
+    transition: color 1s;
+    text-decoration: underline;
+}
+
+section#corpo {
+    background-color: white;
+    box-shadow: 2px 0px 5px rgb(0, 0, 0, 0.5);
+    width: 800px;
+    margin: -30px auto 10px auto;
+    padding: 20px 10px 10px 10px;
+}
+
+section#corpo p {
+    text-align: justify;
+    text-indent: 50px;
+    padding: 5px;
+}
+
+/*===============Rodapé da pagina================*/
+footer#rodape {
+    clear: both;
+    border-top: 1px solid black;
+    background-color: white;
+    box-shadow: 1px 0px 5px rgb(0, 0, 0, 0.5);
+    margin: auto auto 0px auto;
+    width: 800px;
+    height: 70px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+footer#rodape p {
+    text-align: center;
+    position: relative;
+}
+
+footer#rodape a {
+    color: black;
+    text-decoration: none; 
+}
+
+footer#rodape a:hover {
+    color: blue;
+    transition: 1s;
+    text-decoration: underline;
+}
