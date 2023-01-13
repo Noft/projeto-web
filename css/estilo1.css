@@ -45,21 +45,21 @@ nav#menu ul {
 
 nav#menu li {
 /*font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif!important;*/
-background-color: #5e5e5e!important;
-color: #fff!important;
+background-color: #5e5e5e;
+color: #fff;
 border: 0;
-font-style: normal!important;
+font-style: normal;
 border-bottom: 1px solid #262626;
 border-right: 1px solid #262626;
-box-shadow: inset 1px 1px 0 #777,0 2px 3px rgba(0,0,0,.4)!important;
+box-shadow: inset 1px 1px 0 #777,0 2px 3px rgba(0,0,0,.4);
 display: inline-block;
 font-weight: 700;
 line-height: 1.4;
 text-transform: uppercase;
-text-decoration: none!important;
-border-radius: 4px!important;
+text-decoration: none;
+border-radius: 4px;
 white-space: nowrap;
-padding: 0.5rem 1rem!important;
+padding: 0.5rem 1rem;
 text-align: center;
 transition: .07s;
 position: relative;
