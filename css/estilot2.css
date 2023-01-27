@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+}
+
+section {
+    width: auto;
+    height: auto;
+}
+
+header {
+    margin: 0px;
+    padding: 5px;
+    /*box-sizing: border-box;*/
+    font-family: Arial, Helvetica, sans-serif;
+    height: 250px;
+    position: relative;
+    top: -15px;
+    left: 0px;
+    background-size: 1000px;
+}
+
+.loop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+}
+
+hgroup h1 {
+    color: white;
+    font-style: oblique;
+}
+
+hgroup h2 {
+    color: white;
+    font-style: oblique;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    top: 77.5px;
+    left: 50%;
+    /*left: 800px;*/
+    padding: 10px;
+    position: relative;
+}
+
+nav#menu li {
+    display: inline-block;
+    background: rgb(161,0,161);
+    background: linear-gradient(347deg, rgba(161,0,161,1) 0%, rgba(16,19,131,1) 55%, rgba(99,0,175,1) 100%);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 2px;
+    position: relative;
+    font-weight: bold;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: yellow;
+    transition: color 0.2s;
+}
+
+ul#media {
+    list-style: none;
+}
+
+ul#media li {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+ul#media li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0,0,0,0.3);
+}
+
+ul#media li:hover span {
+    opacity: 1;
+}
+
+ul#media li#foto1 {
+    background-image: url('../imagens/foto01.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px;
+}
+
+ul#media li#foto2 {
+    background-image: url('../imagens/foto02.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px;
+}
+
+footer#rodape {
+    border-top: 1px solid rgb(161,0,161);
+}
+
+footer#rodape p {
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+footer#rodape a {
+    color: black;
+    text-decoration: none; 
+}
+
+footer#rodape a#is:hover {
+    color: rgb(247, 42, 62);
+    transition: 0.5s;
+}
+
+footer#rodape a#tw:hover {
+    color: rgb(82, 172, 255);
+    transition: 0.5s;
+}
